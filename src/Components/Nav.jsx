@@ -15,7 +15,7 @@ function Nav() {
       <nav className='nav'>
         <div className="container nav-inner">
           <div className="logo-inner">
-            <p className='logo'>LoGo</p>
+            <p className='logo'>{TEXT.logo}</p>
           </div>
           <ul className="nav-list">
             <li className="nav-item">
@@ -42,6 +42,7 @@ function Nav() {
             <li className='nav-item'>
               <button className='mode-toggler' 
                  onClick={()=> setTheme(!theme)}
+                 
               >{theme ? TEXT.nightBtn : TEXT.dayBtn}</button>
             </li>
           </ul>

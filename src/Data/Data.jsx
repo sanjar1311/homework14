@@ -1,4 +1,5 @@
 const en = {
+  logo: 'LoGo',
   navHome: 'Home',
   navAbout: 'About',
   navContacts: 'Contacts',
@@ -7,6 +8,7 @@ const en = {
 }
 
 const uz = {
+  logo: 'LoGo',
   navHome: 'Bosh sahifa',
   navAbout: 'Biz haqimizda',
   navContacts: 'Biz bilan aloqa',
@@ -15,8 +17,9 @@ const uz = {
 }
 
 const ru = {
+  logo: 'ЛоГо',
   navHome: 'Главний',
-  navAbout: 'About',
+  navAbout: 'О Нас',
   navContacts: 'Обратная связь',
   dayBtn: 'Ден',
   nightBtn: 'Ночь',
